@@ -1,0 +1,223 @@
+/*Каркас страницы*/
+html{
+	width: 1150px;
+	height: 1060px;
+	margin: 0 auto;
+}
+
+/*Стиль для HEADER*/
+header{
+height: 480px;
+
+}
+.navNewStyle{
+	margin-top: 88px;
+
+		border-radius:none;
+}
+
+/**/
+.navNewStyle ul li a{
+	background-color: #EBE9D8;
+	text-align: center;
+	width: 176px;
+	color: #000;
+	font-weight: 550;
+	font-size: 1em;
+	border-top: 5px solid #E8E5D1;
+	border-radius:0px;
+
+	}
+
+.navNewStyle ul li a:hover,.navNewStyle ul li a:active,.navNewStyle ul li a:focus{
+	background-color: #CDBC8B;
+		border-radius:none;
+		color:#fff;
+}
+
+.slogan {
+	position: relative;
+	top: 62px;
+	left: 780px;
+	 font-family: 'Times New Roman', Times, serif; /* Шрифт с засечками */
+    font-style: italic; /* Курсивное начертание */
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.slogan span{
+	font-family: 'Georgia'; /* Шрифт с засечками */
+    font-style: italic; /* Курсивное начертание */
+	color: #7A2A15;
+}
+
+.headerPeople{
+	position:relative;
+	bottom: 4px;
+	left: 484px;
+	
+}
+
+
+
+header h1 {
+	position: relative;
+	bottom:290px;
+	left:264px;
+
+}
+
+header h1 span {
+	color:#BF3A16;
+	padding-left:36px;
+	padding-top:10px;
+	
+}
+
+p.discoverThe{
+	color:#9E6756;
+	font-style: italic;
+	font-size: 1.4em;
+	position:relative;
+	bottom:268px;
+	left:222px;
+	
+}
+
+p.forYourSuccess{
+
+	font-style: italic;
+	font-size: 1.4em;
+	position:relative;
+	bottom:310px;
+	left:300px;
+	
+}
+/*Хедер окончание*/
+
+/*Секция контената частьпервая*/
+section{
+	padding-top:20px;
+	width: 1150px;
+	height: 400px;
+	background-color: #EBE9D8;
+	border-bottom:2px solid #E2E0CF ;
+	border-top:2px solid #E2E0CF ;
+}
+
+span.h2Section{
+	color: #8A4913;
+	font-style: italic;
+}
+
+section h2 {
+	margin-bottom:0;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+section p{
+	margin-top: 15px;
+}
+.manPic{
+	margin-left: -14px;
+}
+
+figcaption {
+	margin-left:-30px;
+	margin-top:20px;
+}
+
+section a{
+	text-decoration: underline;
+	color: #bf3a16;
+}
+
+section ul {
+	margin-top: 15px;
+	list-style-type: none;
+	padding-left:0;
+}
+
+section ul span{
+	font-size:0.5em;
+}
+
+section ul li a{
+	padding-left: 5px;
+}
+
+form{
+	height: 90px;
+	margin-top: 20px;
+	border: 1px solid #bf3a16;
+	padding-left: 10px;
+	background-color: #bf3a16;
+	border-radius:2px;	
+	padding-top:2px;
+}
+
+form span{
+	color:#fff;
+	font-size: 1.6em;
+
+
+}
+
+form input{
+	height: 23px;
+	margin-top:10px;
+	border-radius:4px;
+	outline:none;
+	border:none;
+}
+
+.btnNewStyle{
+	height: 24px;
+	line-height: 12px;
+	
+}
+
+form a{
+	color:#fff;
+	font-size: 0.8em;
+	padding-top:2px;
+}
+
+/*Конец стиля  раздела section*/
+
+/*Стили раздела footer*/
+
+
+
+footer ul{
+	padding-top:10px;
+	padding-left: 0;
+}
+
+footer ul li {
+	list-style-type: none;
+}
+
+footer ul li a{
+	font-size: 0.8em;
+	color: #bf3a16;
+	text-decoration: underline;
+}
+
+footer ul span{
+	font-size:0.5em;
+}
+
+.copy{
+	padding-top: 20px;
+	border: 1px solid #E2E0CF;
+}
+
+.newStyle{
+	padding-left:0;
+}
+
+footer p{
+	margin-top: 40px;
+}
+/*Окончание стилей раздела footer*/
